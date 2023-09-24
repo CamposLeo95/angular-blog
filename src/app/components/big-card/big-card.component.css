@@ -1,0 +1,20 @@
+.container__big-card{
+  width: 450px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.big-card__photo > img{
+  width: 100%;
+}
+
+.big-card__title > a > h2 {
+  font-size: 20px;
+}
+
+.big-card__description > p {
+  font-size: 14px;
+  color: #a1a1a1;
+}
