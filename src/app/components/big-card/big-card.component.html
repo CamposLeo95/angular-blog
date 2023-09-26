@@ -3,11 +3,15 @@
     <img src= {{photoCover}} height="250px" width="300px">
   </div>
   <div class="big-card__title">
-    <a href="#">
+    <a [routerLink]="['content', Id]">
       <h2>{{cardTitle}}</h2>
     </a>
   </div>
   <div class="big-card__description">
-    <p>{{cardDescription}}</p>
+    <p>
+      <a [routerLink]="['content', Id]">
+        {{cardDescription}}
+      </a>
+    </p>
   </div>
 </div>
